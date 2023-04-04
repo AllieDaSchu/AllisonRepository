@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inika&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    padding-top: 0;
+}
+
+#header {
+    border: 1px black;
+    margin: 0;
+    margin-bottom: 5px;
+    min-height: 100px;
+    background-image: url("../Images/banss.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    box-shadow: 0 0 5px black;
+}
+
+#s1 {
+    width: 65%;
+    column-width: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../Images/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #BCB6B6;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#s2 {
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../Images/bg2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #BCB6B6;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+/** 	color: white;
+	-webkit-text-stroke: .01px #AAAAAA;**/
+
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Inika', serif;
+    font-size: 430%;
+    color: #828282;
+    text-shadow:
+        -2px -2px 0 #FFFFFF,
+        0 -2px 0 #FFFFFF,
+        2px -2px 0 #FFFFFF,
+        2px 0 0 #FFFFFF,
+        2px 2px 0 #FFFFFF,
+        0 2px 0 #FFFFFF,
+        -2px 2px 0 #FFFFFF,
+        -2px 0 0 #FFFFFF;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: cover;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Inika', serif;
+    color: white;
+    text-shadow: 0px 0px 5px #404040;
+    width: 50%;
+    text-shadow:
+        -2px -2px 0 #4B4B4B,
+        0 -2px 0 #4B4B4B,
+        2px -2px 0 #4B4B4B,
+        2px 0 0 #4B4B4B,
+        2px 2px 0 #4B4B4B,
+        0 2px 0 #4B4B4B,
+        -2px 2px 0 #4B4B4B,
+        -2px 0 0 #4B4B4B;
+}
+
+#foot {
+    margin-top: 6px;
+    color: #FCE9D1;
+    float: right;
+    font-size: 40px;
+    font-family: 'Imprima', sans-serif;
+    margin-bottom: 0;
+    text-shadow:
+        -2px -2px 0 #3E2B1D,
+        0 -2px 0 #3E2B1D,
+        2px -2px 0 #3E2B1D,
+        2px 0 0 #3E2B1D,
+        2px 2px 0 #3E2B1D,
+        0 2px 0 #3E2B1D,
+        -2px 2px 0 #3E2B1D,
+        -2px 0 0 #3E2B1D;
+}
+
+#description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 25px;
+    color: white;
+    font-family: 'Imprima', sans-serif;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 5px #404040;
+}
+
+#footer {
+    background: url("../Images/Sticky.jpg");
+    color: white;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+#page-container {
+    margin-top: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+#face img {
+    float: right;
+}
+
+.insta {
+    float: right;
+}
+
+p {
+    margin-top: 5px;
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-family: 'Imprima', sans-serif;
+    -webkit-text-stroke: .01px #AAAAAA;
+    margin-bottom: 0;
+}
+
+#title {
+    text-decoration: underline;
+    text-underline-offset: 10%;
+}
+
+#button {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Imprima', sans-serif;
+    -webkit-text-stroke: 0.01px #AAAAAA;
+    background-color: transparent;
+    float: center;
+}
+
+.buttons:hover {
+    color: #606060;
+    text-decoration: underline;
+}
+
+#but {
+    text-align: right;
+}
+
+.my {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    margin-top: 5px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Imprima', sans-serif;
+    background-color: transparent;
+    float: center;
+}
+
+.my:hover {
+    color: #606060;
+    text-decoration: underline;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#query {
+    width: 35%;
+    height: 30px;
+    border-radius: 25px;
+}
+
+#search {
+    height: 30px;
+    border-radius: 25px;
+}
+
+.imagesrecipes {
+    width: 10em;
+    height: 15em;
+}
+
+#recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-auto-rows: 540px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#recipe1 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe2 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe3 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe4 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe5 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe6 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe7 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+#recipe8 {
+    background: rgb(208, 208, 208);
+    color: rgb(21, 20, 20);
+    font-size: 150%;
+    text-align: center;
+    border-radius: 40px;
+    width: 319px;
+    height: 526px;
+    margin: auto;
+}
+
+.imagesrecipes {
+    position: relative;
+    margin-top: 15px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 319px;
+}
+
+.imagesrecipes img {
+    border-radius: 20px;
+    border-color: #c58ac9;
+    border-width: 2px;
+}
+
+.Columns-recipe {
+    width: auto;
+    height: auto;
+}
+
+.recipes {
+    border-color: black;
+    border: 120px;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+}
+
+#recipeheader {
+    position: relative;
+    top: -170px;
+    width: 268;
+    height: 74;
+    font-family: Imprima, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#imagebuttons button {
+    position: relative;
+    top: -150px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #c58ac9;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    width: 300px;
+    height: 75px;
+    margin-bottom: -300px;
+}
+
+#imagebuttons:hover {
+    transform: translateY(-2px);
+}
+
+.recipeinfo {
+    border: solid black 1px;
+    position: relative;
+    top: -160px;
+    height: 100px;
+    width: 320px;
+    text-align: center;
+}
+
+.recipeinfo p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+
+#banner-placement {
+    background-image: url("../Images/Bottom Banner.png");
+    background-size: 100%;
+    height: auto;
+    width: auto;
+}
+
+#buttons-recipes {
+    background-image: url("../Images/bans.jpg");
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    font-family: 'Imprima', sans-serif;
+    -webkit-text-stroke: 0.01px #AAAAAA;
+    background-color: none;
+    position: relative;
+    top: -300px;
+}
+
+#rating img {
+    position: relative;
+    top: 150px;
+}
+
+#recipeheader h5 {
+    padding-bottom: 10px;
+}
+
+#recipeheader h6 {
+    position: relative;
+    top: -30px;
+    padding-top: 30px;
+    margin: -40px;
+    line-height: 30px;
+}
+
+#commentbox {
+    margin-top: 210px;
+    margin-bottom: -7%;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 500px
+}
+
+#commentbox input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20 px;
+    margin-bottom: 15px;
+    border-radius: 5 px;
+    border: 1px solid black;
+}
+
+#commentbox textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15 px 20 px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#commentbox button {
+    border: 0;
+    padding: 10px 30px;
+    background: seagreen;
+    font-size: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#commentbox button :hover {
+    background-color: lightgreen;
+}
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
