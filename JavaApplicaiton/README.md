@@ -8,11 +8,6 @@ INSTRUCTIONS FOR RUNNING AND COMPILING THE APPLICATION:
 
 note: ALL TEXT FIELDS FOR PRODUCTS, STORES, OR USERS MUST NOT CONTAIN THE CHARACTERS “ ,” , “/”, or “-”. USERS MUST MATCH CASES EXACTLY WHEN SEARCHING/ACCESSING PRODUCTS.
 
-SUBMISSIONS
----------------------------------------------------------------------------------------------------
-- Avi Puranik submitted report to brightspace
-- Hosung Ryu submitted Vocareum workspace
-
 CLASS DESCRIPTIONS
 ---------------------------------------------------------------------------------------------------
 
